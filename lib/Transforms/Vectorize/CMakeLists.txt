@@ -8,4 +8,4 @@ add_llvm_library(LLVMVectorize
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
   )
 
-add_dependencies(LLVMVectorize intrinsics_gen)
+add_dependencies(LLVMVectorize intrinsics_gen attributes_inc)

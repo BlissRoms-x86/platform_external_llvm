@@ -8,4 +8,5 @@ add_llvm_library(LLVMRuntimeDyld
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

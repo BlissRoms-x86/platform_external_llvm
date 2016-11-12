@@ -5,3 +5,5 @@ add_llvm_library(LLVMOProfileJIT
   OProfileJITEventListener.cpp
   OProfileWrapper.cpp
   )
+
+add_dependencies(LLVMOProfileJIT attributes_inc)

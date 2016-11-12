@@ -6,4 +6,5 @@ add_llvm_library(LLVMBitWriter
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

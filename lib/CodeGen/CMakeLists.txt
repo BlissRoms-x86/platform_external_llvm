@@ -141,7 +141,7 @@ add_llvm_library(LLVMCodeGen
   LINK_LIBS ${system_libs}
   )
 
-add_dependencies(LLVMCodeGen intrinsics_gen)
+add_dependencies(LLVMCodeGen intrinsics_gen attributes_inc)
 
 add_subdirectory(SelectionDAG)
 add_subdirectory(AsmPrinter)

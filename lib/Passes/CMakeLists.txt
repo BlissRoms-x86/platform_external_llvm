@@ -5,4 +5,4 @@ add_llvm_library(LLVMPasses
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Passes
   )
 
-add_dependencies(LLVMPasses intrinsics_gen)
+add_dependencies(LLVMPasses intrinsics_gen attributes_inc)

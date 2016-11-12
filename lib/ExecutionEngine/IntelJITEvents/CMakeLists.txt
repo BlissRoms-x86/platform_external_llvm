@@ -6,3 +6,5 @@ add_llvm_library(LLVMIntelJITEvents
 
   LINK_LIBS pthread ${CMAKE_DL_LIBS}
 )
+
+add_dependencies(LLVMIntelJITEvents attributes_inc)

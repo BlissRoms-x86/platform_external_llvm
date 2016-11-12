@@ -7,4 +7,5 @@ add_llvm_library(LLVMLinker
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

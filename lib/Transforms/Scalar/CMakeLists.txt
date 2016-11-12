@@ -55,4 +55,4 @@ add_llvm_library(LLVMScalarOpts
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms/Scalar
   )
 
-add_dependencies(LLVMScalarOpts intrinsics_gen)
+add_dependencies(LLVMScalarOpts intrinsics_gen attributes_inc)

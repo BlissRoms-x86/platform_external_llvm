@@ -12,4 +12,5 @@ add_llvm_library(LLVMOrcJIT
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

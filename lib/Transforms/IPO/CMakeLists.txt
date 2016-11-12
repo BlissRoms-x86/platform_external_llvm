@@ -31,4 +31,4 @@ add_llvm_library(LLVMipo
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms/IPO
   )
 
-add_dependencies(LLVMipo intrinsics_gen)
+add_dependencies(LLVMipo intrinsics_gen attributes_inc)

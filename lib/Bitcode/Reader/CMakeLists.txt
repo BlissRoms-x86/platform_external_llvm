@@ -7,4 +7,4 @@ add_llvm_library(LLVMBitReader
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Bitcode
   )
 
-add_dependencies(LLVMBitReader intrinsics_gen)
+add_dependencies(LLVMBitReader intrinsics_gen attributes_inc)

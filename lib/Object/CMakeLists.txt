@@ -23,4 +23,5 @@ add_llvm_library(LLVMObject
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

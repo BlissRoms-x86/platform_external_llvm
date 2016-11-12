@@ -6,4 +6,4 @@ add_llvm_library(LLVMLTO
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/LTO
   )
 
-add_dependencies(LLVMLTO intrinsics_gen)
+add_dependencies(LLVMLTO intrinsics_gen attributes_inc)

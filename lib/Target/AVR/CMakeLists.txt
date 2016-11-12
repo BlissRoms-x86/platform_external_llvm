@@ -8,7 +8,7 @@ add_llvm_target(AVRCodeGen
     AVRTargetMachine.cpp
   )
 
-add_dependencies(LLVMAVRCodeGen intrinsics_gen)
+add_dependencies(LLVMAVRCodeGen intrinsics_gen attributes_inc)
 
 add_subdirectory(TargetInfo)
 

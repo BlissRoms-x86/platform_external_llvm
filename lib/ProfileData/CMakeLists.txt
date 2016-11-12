@@ -14,4 +14,5 @@ add_llvm_library(LLVMProfileData
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

@@ -37,3 +37,5 @@ add_subdirectory(Disassembler)
 add_subdirectory(InstPrinter)
 add_subdirectory(TargetInfo)
 add_subdirectory(MCTargetDesc)
+
+add_dependencies(LLVMSystemZCodeGen attributes_inc)

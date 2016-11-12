@@ -3,4 +3,5 @@ add_llvm_library(LLVMMCJIT
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

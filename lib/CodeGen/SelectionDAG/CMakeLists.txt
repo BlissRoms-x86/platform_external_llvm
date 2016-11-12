@@ -25,4 +25,4 @@ add_llvm_library(LLVMSelectionDAG
   TargetSelectionDAGInfo.cpp
   )
 
-add_dependencies(LLVMSelectionDAG intrinsics_gen)
+add_dependencies(LLVMSelectionDAG intrinsics_gen attributes_inc)

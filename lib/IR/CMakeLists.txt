@@ -61,4 +61,4 @@ if( MSVC_VERSION EQUAL 1800)
     )
 endif()
 
-add_dependencies(LLVMCore intrinsics_gen)
+add_dependencies(LLVMCore intrinsics_gen attributes_inc)

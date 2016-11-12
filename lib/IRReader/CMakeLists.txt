@@ -6,4 +6,5 @@ add_llvm_library(LLVMIRReader
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

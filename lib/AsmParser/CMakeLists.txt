@@ -9,4 +9,5 @@ add_llvm_library(LLVMAsmParser
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )

@@ -45,7 +45,7 @@ add_llvm_target(AArch64CodeGen
   AArch64TargetTransformInfo.cpp
 )
 
-add_dependencies(LLVMAArch64CodeGen intrinsics_gen)
+add_dependencies(LLVMAArch64CodeGen intrinsics_gen attributes_inc)
 
 add_subdirectory(TargetInfo)
 add_subdirectory(AsmParser)

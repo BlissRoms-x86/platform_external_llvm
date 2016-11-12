@@ -15,4 +15,4 @@ add_llvm_library(LLVMInstrumentation
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Transforms
   )
 
-add_dependencies(LLVMInstrumentation intrinsics_gen)
+add_dependencies(LLVMInstrumentation intrinsics_gen attributes_inc)

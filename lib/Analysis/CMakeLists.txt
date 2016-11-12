@@ -74,4 +74,4 @@ add_llvm_library(LLVMAnalysis
   ${LLVM_MAIN_INCLUDE_DIR}/llvm/Analysis
   )
 
-add_dependencies(LLVMAnalysis intrinsics_gen)
+add_dependencies(LLVMAnalysis intrinsics_gen attributes_inc)

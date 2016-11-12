@@ -12,6 +12,7 @@ add_llvm_library(LLVMExecutionEngine
 
   DEPENDS
   intrinsics_gen
+  attributes_inc
   )
 
 add_subdirectory(Interpreter)

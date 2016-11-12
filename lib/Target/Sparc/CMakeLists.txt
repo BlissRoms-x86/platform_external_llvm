@@ -31,3 +31,5 @@ add_subdirectory(MCTargetDesc)
 add_subdirectory(InstPrinter)
 add_subdirectory(AsmParser)
 add_subdirectory(Disassembler)
+
+add_dependencies(LLVMSparcCodeGen attributes_inc)
